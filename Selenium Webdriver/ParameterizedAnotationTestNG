@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+<parameter name="fname" value="shreyansh"/>
+<parameter name="lname" value="agola"/>
+<parameter name="phone" value="09157238002"/>
+<parameter name="email" value="shreyansh.agola@gmail.com"/>
+<parameter name="address" value="vastral"/>
+<parameter name="state" value="gujarat"/>
+<parameter name="cname" value="cloudforce"/>
+<parameter name="msg" value="hi this is shreyansh learning automation"/>
+
+  <test name="Test">
+    <classes>
+      <class name="com.testng.LubiParameterizedAnoPractice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
